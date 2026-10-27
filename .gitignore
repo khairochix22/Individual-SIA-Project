@@ -1,0 +1,47 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+htdocs/conf/conf.php
+
+# Dolibarr generated data
+documents/*
+!documents/.gitkeep
+htdocs/documents/*
+!htdocs/documents/.gitkeep
+install.lock
+
+# Docker and local database data
+*.sql
+*.sql.gz
+docker-data/
+mysql-data/
+mariadb-data/
+
+# Dependencies and build output
+vendor/
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+~$*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE/editor files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.code-workspace

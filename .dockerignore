@@ -1,0 +1,8 @@
+.git
+.env
+documents
+htdocs/conf/conf.php
+htdocs/documents
+node_modules
+vendor
+*.log

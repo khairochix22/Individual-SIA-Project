@@ -1,0 +1,19 @@
+# Keep text files consistent across Windows, Linux, and macOS.
+* text=auto eol=lf
+
+# Do not alter binary assets.
+*.avif binary
+*.bmp binary
+*.gif binary
+*.ico binary
+*.jpeg binary
+*.jpg binary
+*.pdf binary
+*.png binary
+*.svg binary
+*.webp binary
+*.woff binary
+*.woff2 binary
+*.xls binary
+*.xlsx binary
+*.zip binary
